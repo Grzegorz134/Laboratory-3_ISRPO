@@ -6,7 +6,7 @@ int main(){
 
     printf("Zadanie 2 - %X (HEX)\n", num);
 
-    printf("Zadanie 3 - %o (OCT) | %o (OCT >> 3)\n",num, num >> 3);
+    printf("Zadanie 3 - %o (OCT) | %o (OCT >> 6)\n",num, num >> 6);
 
     int notnum = ~num;
     printf("Zadanie 4 - %o (OCT) | %o (NOT OCT)\n",num,notnum);
